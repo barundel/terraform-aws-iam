@@ -10,7 +10,7 @@ variable "role_description" {
 
 variable "create_role" {
   description = "Flag to allow disabling role disabled"
-  default     = true
+  default     = false
 }
 
 variable "assume_role_policy" {
