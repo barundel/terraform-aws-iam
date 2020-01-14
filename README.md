@@ -10,7 +10,7 @@
 
 ## Maintenance
 
-This project is maintained [Martin Etmajer](https://github.com/barundel), anyone is welcome to contribute. 
+This project is maintained [Ben](https://github.com/barundel), anyone is welcome to contribute. 
 
 ## Getting Started
 
