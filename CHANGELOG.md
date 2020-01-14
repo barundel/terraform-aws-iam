@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+## [1.0.1](https://github.com/barundel/terraform-aws-iam/compare/v1.0.0...v1.0.1) (2020-01-14)
+
+
+### Bug Fixes
+
+* updating the name of the build process ([7120912](https://github.com/barundel/terraform-aws-iam/commit/7120912545d9c4eee48066c45ab7b70078767d4b))
+
 # 1.0.0 (2020-01-14)
 
 
