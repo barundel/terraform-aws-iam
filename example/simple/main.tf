@@ -1,5 +1,5 @@
 module "iam_example" {
-  source = "../"
+  source = "../../"
   role_name = "IAMRole"
 
   create_role = true

@@ -1,2 +1,2 @@
 # terraform-iam
-Collection of IAM resources. 
+Terraform module for creating IAM resources.  

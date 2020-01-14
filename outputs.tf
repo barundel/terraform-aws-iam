@@ -1,9 +1,9 @@
 output "iam_role_arn" {
-  value = aws_iam_role.iam_role[0].arn
+  value = aws_iam_role.iam_role.*.arn
 }
 
 output "iam_role_name" {
-  value = aws_iam_role.iam_role[0].name
+  value = aws_iam_role.iam_role.*.name
 }
 
 output "iam_policies_arn" {
@@ -21,17 +21,17 @@ output "iam_policies_names" {
 }
 
 output "iam_instance_profile" {
-  value = aws_iam_instance_profile.iam_instance_profile[0].name
+  value = aws_iam_instance_profile.iam_instance_profile.*.name
 }
 
 output "iam_instance_profile_arn" {
-  value = aws_iam_instance_profile.iam_instance_profile[0].arn
+  value = aws_iam_instance_profile.iam_instance_profile.*.arn
 }
 
 output "group_name" {
-  value = aws_iam_group.this[0].name
+  value = aws_iam_group.this.*.name
 }
 
 output "group_id" {
-  value = aws_iam_group.this[0].id
+  value = aws_iam_group.this.*.id
 }
